@@ -4,7 +4,7 @@ static Window *s_main_window;
 static TextLayer *s_time_layer, *s_date_layer;  // for the time, date
 
 
-static Layer *s_canvas_layer;  // for the circle
+//static Layer *s_canvas_layer;  // for the circle
 static Layer *s_path_layer;  // for paths
 
 // 144 x 168
@@ -73,7 +73,7 @@ static void tick_handler(struct tm *tick_time, TimeUnits units_changed) {
 }
 
 
-
+/*
 static void canvas_update_proc(Layer *this_layer, GContext *ctx) {
   GRect bounds = layer_get_bounds(this_layer);
 
@@ -92,7 +92,7 @@ static void canvas_update_proc(Layer *this_layer, GContext *ctx) {
   
 }
 
-
+*/
 
 
 static void gpath_update_proc(Layer *layer, GContext *ctx) {
@@ -107,7 +107,7 @@ static void gpath_update_proc(Layer *layer, GContext *ctx) {
   gpath_draw_filled(ctx, s_path);
   gpath_draw_filled(ctx, s_path4);
   
-  graphics_context_set_fill_color(ctx, GColorLightGray);
+  graphics_context_set_fill_color(ctx, GColorDarkGray);
   gpath_draw_filled(ctx, s_path2);
   gpath_draw_filled(ctx, s_path3);
   
@@ -136,11 +136,11 @@ static void main_window_load(Window *window) {
   GRect window_bounds = layer_get_bounds(window_layer);
 
   // Create Canvas Layer
-  s_canvas_layer = layer_create(GRect(0, 0, window_bounds.size.w, window_bounds.size.h));
-  layer_add_child(window_layer, s_canvas_layer);
+//  s_canvas_layer = layer_create(GRect(0, 0, window_bounds.size.w, window_bounds.size.h));
+ // layer_add_child(window_layer, s_canvas_layer);
 
   // Set the update_proc
-  layer_set_update_proc(s_canvas_layer, canvas_update_proc);
+//  layer_set_update_proc(s_canvas_layer, canvas_update_proc);
   
   
   // Create GPath object
@@ -245,7 +245,7 @@ static void main_window_unload(Window *window) {
   gpath_destroy(s_path4);
   
   // Destroy Canvas Layer
-  layer_destroy(s_canvas_layer);
+//  layer_destroy(s_canvas_layer);
   
 }
 

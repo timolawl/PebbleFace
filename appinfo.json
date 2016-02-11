@@ -10,6 +10,13 @@
     "resources": {
         "media": [
             {
+                "file": "images/Timolawl.png",
+                "menuIcon": true,
+                "name": "Timolawl",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
                 "file": "fonts/IstokWeb-Regular.ttf",
                 "name": "FONT_ISTOK_WEB_16",
                 "targetPlatforms": null,
@@ -29,7 +36,7 @@
     "targetPlatforms": [
         "chalk"
     ],
-    "uuid": "d76aed6a-c6ad-4408-9d30-cf5ca0fad9fe",
+    "uuid": "ca30a41c-eb37-4f2a-8e3f-057c0fd86834",
     "versionLabel": "1.0",
     "watchapp": {
         "watchface": true
