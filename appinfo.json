@@ -1,0 +1,37 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Tim Chiang",
+    "enableMultiJS": false,
+    "longName": "Timolawl",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/IstokWeb-Regular.ttf",
+                "name": "FONT_ISTOK_WEB_16",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:.]",
+                "file": "fonts/Montserrat-Black.ttf",
+                "name": "FONT_MONTSERRAT_40",
+                "targetPlatforms": null,
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Timolawl",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "d76aed6a-c6ad-4408-9d30-cf5ca0fad9fe",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
