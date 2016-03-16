@@ -1,11 +1,15 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "BACKGROUND_KEY": 0,
+        "COLLAR_KEY": 2,
+        "TIE_KEY": 1
+    },
     "capabilities": [
-        ""
+        "configurable"
     ],
     "companyName": "Tim Chiang",
-    "enableMultiJS": false,
-    "longName": "Timolawl",
+    "enableMultiJS": true,
+    "longName": "Suit Up by Timolawl",
     "projectType": "native",
     "resources": {
         "media": [
@@ -32,12 +36,12 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Timolawl",
+    "shortName": "Suit Up!",
     "targetPlatforms": [
         "chalk"
     ],
-    "uuid": "ca30a41c-eb37-4f2a-8e3f-057c0fd86834",
-    "versionLabel": "1.0",
+    "uuid": "7384a8f9-edd8-4609-bfb7-60d1f08558eb",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }
