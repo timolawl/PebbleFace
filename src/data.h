@@ -5,8 +5,8 @@
 typedef enum {
 
   BACKGROUND_KEY = 0,
-  TIE_KEY,
-  COLLAR_KEY
+  COLLAR_KEY,
+  TIE_KEY
 } DataKey;
 
 

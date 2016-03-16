@@ -1,15 +1,15 @@
 {
     "appKeys": {
         "BACKGROUND_KEY": 0,
-        "COLLAR_KEY": 2,
-        "TIE_KEY": 1
+        "COLLAR_KEY": 1,
+        "TIE_KEY": 2
     },
     "capabilities": [
         "configurable"
     ],
     "companyName": "Tim Chiang",
     "enableMultiJS": true,
-    "longName": "Suit Up by Timolawl",
+    "longName": "Dapper",
     "projectType": "native",
     "resources": {
         "media": [
@@ -36,7 +36,7 @@
         ]
     },
     "sdkVersion": "3",
-    "shortName": "Suit Up!",
+    "shortName": "Dapper",
     "targetPlatforms": [
         "chalk"
     ],
